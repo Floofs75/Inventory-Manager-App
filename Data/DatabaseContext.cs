@@ -10,7 +10,9 @@ namespace InventoryManager.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source = inventory.db");
+            string folder = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            string dbPath = System.IO.Path.Combine(folder, "inventory.db");
+            optionsBuilder.UseSqlite($"Data Source={dbPath}");
         }
 
     }
