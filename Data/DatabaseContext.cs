@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using InventoryManager.Core;
+using Microsoft.EntityFrameworkCore;
 
-namespace InventoryManager
+namespace InventoryManager.Data
 {
     public class DatabaseContext : DbContext
     {

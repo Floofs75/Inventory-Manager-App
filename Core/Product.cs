@@ -1,6 +1,4 @@
-﻿
-
-namespace InventoryManager
+﻿namespace InventoryManager.Core
 {
     public class Product
     {

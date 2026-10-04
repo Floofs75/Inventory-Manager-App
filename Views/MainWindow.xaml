@@ -1,0 +1,8 @@
+﻿<Window x:Class="InventoryManager.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Inventory Manager" Height="450" Width="800">
+    <Grid>
+        <!-- UI Elements will go here -->
+    </Grid>
+</Window>
