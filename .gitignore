@@ -1,0 +1,12 @@
+# Visual Studio / .NET build folders
+[Bb]in/
+[Oo]bj/
+.vs/
+
+# Local SQLite database files (each developer/machine should have their own local db)
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.user
